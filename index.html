@@ -152,18 +152,18 @@
 
     <template id="home.html">
         <ons-page id="home">
-            <!-- <ons-toolbar>
+            <ons-toolbar>
                 <div class="left">
                     <ons-toolbar-button id="menu_button">
                         <ons-icon icon="fa-bars"></ons-icon>
                     </ons-toolbar-button>
                 </div>
-                <div class="center" style="color: red">.TMOVIES</div>
+                <div class="center" style="color: red">T MOVIES</div>
                 <div class="right">
-            <ons-toolbar-button><ons-icon icon="fa-search"></ons-icon></ons-toolbar-button>
+            <!-- <ons-toolbar-button><ons-icon icon="fa-search"></ons-icon></ons-toolbar-button> -->
             <ons-if platform="android"><ons-toolbar-button><ons-icon icon="ion-android-more-vertical"></ons-icon></ons-toolbar-button></ons-if>
           </div>
-            </ons-toolbar> -->
+            </ons-toolbar>
 
             <ons-carousel class="carousel" swipeable auto-scroll id="carousel">
                 <ons-carousel-item onclick="openMovieDetails(this.id)">
@@ -195,7 +195,7 @@
 
             <div class="movie_list">
                 My List
-                <ons-carousel auto-refresh swipeable overscrollable item-width="110px">
+                <ons-carousel auto-refresh swipeable overscrollable  item-width="110px">
                     <ons-carousel-item modifier="nodivider" id="Movie Name" onclick="openMovieDetails(this.id)">
                         <img src="assets/img/onsenui-roadmap.jpg"
                             style="position:relative; height: 135px; width: 100px; object-fit: cover;">
@@ -244,9 +244,10 @@
             <div class="movie_list">
                 Top Picks For You
                 <ons-carousel auto-refresh swipeable overscrollable item-width="105px">
-                    <ons-carousel-item modifier="nodivider" id="Top Movie 1" onclick="openMovieDetails(this.id)">
+                    <ons-carousel-item modifier="nodivider" id="Top Movie 495452" onclick="openMovieDetails(this.id)">
                         <img src="assets/img/Monaca_Logo.jpg"
                             style="position:relative; height: 135px; width: 100px; object-fit: cover;">
+
                     </ons-carousel-item>
                     <ons-carousel-item modifier="nodivider" id="Top Movie 2" onclick="openMovieDetails(this.id)">
                         <img src="assets/img/new4.jpg"
@@ -291,8 +292,8 @@
                 Recently Added
                 <ons-carousel auto-refresh swipeable overscrollable item-width="110px">
 
-                    <ons-carousel-item modifier="nodivider" id="Recent_Movie_1" class="movie_cover"
-                        onclick="openMovieDetails(this.id)">
+                    <ons-carousel-item modifier="nodivider" id="Recent_Movie_1" url="abc.com" class="movie_cover"
+                        onclick="openMovieDetails2(this.id, this.url)">
                         <img src="assets/img/movie_cover_template.jpg"
                             style="position:relative; height: 135px; width: 100px; object-fit: cover;">
                     </ons-carousel-item>
@@ -337,10 +338,7 @@
                         <img src="assets/img/movie_cover_template.jpg"
                             style="position:relative; height: 135px; width: 100px; object-fit: cover;">
                     </ons-carousel-item>
-                    <ons-carousel-item modifier="nodivider" id="Movie 5" onclick="openMovieDetails(this.id)">
-                        <img src="assets/img/movie_cover_template.jpg"
-                            style="position:relative; height: 135px; width: 100px; object-fit: cover;">
-                    </ons-carousel-item>
+                   
 
                 </ons-carousel>
             </div>
@@ -580,6 +578,9 @@
             </style>
         </ons-page>
     </template>
+
+
+
 
     <style type="text/css">
         .page {
