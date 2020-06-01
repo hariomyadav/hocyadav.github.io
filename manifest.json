@@ -1,15 +1,16 @@
 {
-    "short_name": "TMovie",
-    "name": "TMovie Netflix Amazon Hotstar Zee",
-    "icons": [
-        {
-            "src": "assests/img/logo.png",
-            "type": "image/png",
-            "sizes": "1024x1024"
-        }
-    ],
+    "name": "TMovie App",
+    "short_name": "TMovie Netflix Amazon Hotstar Zee",
     "start_url": ".",
     "display": "standalone",
-    "theme_color": "#000000",
-    "background_color": "#ffffff"
-}
+    "background_color": "#fff",
+    "description": "TMovie App",
+    "icons": [
+      {
+            "src": "assets/img/tmovie.png",
+            "type": "image/png",
+            "sizes": "1024x1024"
+      }
+      
+    ]
+  }

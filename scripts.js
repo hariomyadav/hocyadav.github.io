@@ -1,3 +1,18 @@
+window.addEventListener('load', () => {
+    registerSW();
+  });
+
+async function registerSW() {
+    if ('serviceWorker' in navigator) {
+      try {
+        await navigator.serviceWorker.register('./sw.js');
+      } catch (e) {
+        console.log(`SW registration failed`);
+      }
+    }
+  }
+
+
 document.addEventListener('init', function(event) {
     var page = event.target;
     if (page.id === 'home') {
@@ -47,13 +62,13 @@ console.log(obj);
 // "</ons-carousel>";
 
 
-if('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-            navigator.serviceWorker.register('./serviceworker.js')
-                .then((reg) => console.log('Success: ', reg.scope))
-                .catch((err) => console.log('Failure: ', err));
-        })
-    }
+// if('serviceWorker' in navigator) {
+//         window.addEventListener('load', () => {
+//             navigator.serviceWorker.register('./serviceworker.js')
+//                 .then((reg) => console.log('Success: ', reg.scope))
+//                 .catch((err) => console.log('Failure: ', err));
+//         })
+//     }
 
 
     //status bar - black experiment
