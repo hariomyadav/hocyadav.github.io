@@ -212,53 +212,55 @@
 
             <div class="movie_list">
                 Top Picks For You
-                <ons-carousel auto-refresh swipeable overscrollable item-width="110px">
+                <ons-carousel auto-refresh swipeable overscrollable item-width="105px">
                     <ons-carousel-item modifier="nodivider" id="Top Movie 1" onclick="openMovieDetails(this.id)">
                         <img src="assets/img/Monaca_Logo.jpg">
                     </ons-carousel-item>
                     <ons-carousel-item modifier="nodivider" id="Top Movie 2" onclick="openMovieDetails(this.id)">
-                        <img src="assets/img/Monaca_Logo.jpg">
+                        <img src="assets/img/new4.jpg">
                     </ons-carousel-item>
                     <ons-carousel-item modifier="nodivider" id="Top Movie 3" onclick="openMovieDetails(this.id)">
-                        <img src="assets/img/movie_cover_template.jpg">
+                        <img src="assets/img/new3.jpg">
                     </ons-carousel-item>
                     <ons-carousel-item modifier="nodivider" id="Top Movie 4" onclick="openMovieDetails(this.id)">
-                        <img src="assets/img/movie_cover_template.jpg">
+                        <img src="assets/img/new2.jpg">
                     </ons-carousel-item>
                     <ons-carousel-item modifier="nodivider" id="Top Movie 5" onclick="openMovieDetails(this.id)">
-                        <img src="assets/img/Monaca_Logo.jpg">
+                        <img src="assets/img/new.jpg">
                     </ons-carousel-item>
                 </ons-carousel>
             </div>
 
-            <div class="movie_list">
-                Recently Added
-                <ons-carousel auto-refresh swipeable overscrollable item-width="110px">
-                    <ons-carousel-item modifier="nodivider" id="Recent Movie 1" class="movie_cover"
-                        onclick="openMovieDetails(this.id)">
-                        <img src="assets/img/movie_cover_template.jpg">
-                    </ons-carousel-item>
-                    <ons-carousel-item modifier="nodivider" id="Recent Movie 2" class="movie_cover"
-                        onclick="openMovieDetails(this.id)">
-                        <img src="assets/img/movie_cover_template.jpg">
-                    </ons-carousel-item>
-                    <ons-carousel-item modifier="nodivider" id="Recent Movie 3" class="movie_cover"
-                        onclick="openMovieDetails(this.id)">
-                        <img src="assets/img/movie_cover_template.jpg">
-                    </ons-carousel-item>
-                    <ons-carousel-item modifier="nodivider" id="Recent Movie 4" class="movie_cover"
-                        onclick="openMovieDetails(this.id)">
-                        <a href="https://www.w3schools.com">
+<div class="movie_list" >
+    Recently Added
+    <ons-carousel auto-refresh swipeable overscrollable item-width="110px">
+        
+        <ons-carousel-item modifier="nodivider" id="Recent Movie 1" class="movie_cover"
+            onclick="openMovieDetails(this.id)">
+            <img src="assets/img/movie_cover_template.jpg">
+        </ons-carousel-item>
 
-                            <img src="assets/img/Monaca_Logo.jpg">
-                        </a>
-                    </ons-carousel-item>
-                    <ons-carousel-item modifier="nodivider" id="Recent Movie 5" class="movie_cover"
-                        onclick="openMovieDetails(this.id)">
-                        <img src="assets/img/movie_cover_template.jpg">
-                    </ons-carousel-item>
-                </ons-carousel>
-            </div>
+        <ons-carousel-item modifier="nodivider" id="Recent Movie 2" class="movie_cover"
+            onclick="openMovieDetails(this.id)">
+            <img src="assets/img/new2.jpg">
+        </ons-carousel-item>
+        <ons-carousel-item modifier="nodivider" id="Recent Movie 3" class="movie_cover"
+            onclick="openMovieDetails(this.id)">
+            <img src="assets/img/movie_cover_template.jpg">
+        </ons-carousel-item>
+        <ons-carousel-item modifier="nodivider" id="Recent Movie 4" class="movie_cover"
+            onclick="openMovieDetails(this.id)">
+            <a href="https://www.w3schools.com">
+
+                <img src="assets/img/Monaca_Logo.jpg">
+            </a>
+        </ons-carousel-item>
+        <ons-carousel-item modifier="nodivider" id="Recent Movie 5" class="movie_cover"
+            onclick="openMovieDetails(this.id)">
+            <img src="assets/img/movie_cover_template.jpg">
+        </ons-carousel-item>
+    </ons-carousel>
+</div>
 
             <style type="text/css">
                 .carousel ons-carousel-item img {
@@ -529,6 +531,19 @@
             document.querySelector('#myNavigator').popPage()
         });
     }
+
+    var s = '{"first_name" : "Sammy", "last_name" : "Shark", "location" : "Ocean"}';
+    var obj = JSON.parse(s);
+    console.log(obj);
+    // document.getElementById("Recently_addede003").innerHTML = 
+    // "<ons-carousel auto-refresh swipeable overscrollable item-width=\"110px\">" + 
+    //     "<ons-carousel-item modifier=\"nodivider\" id=\"Recent Movie 1\" class=\"movie_cover\"
+    //         "onclick=\"openMovieDetails(this.id)\"\>" + 
+    //         "<img src=\"assets/img/movie_cover_template.jpg\">" +
+    //     "</ons-carousel-item>" + 
+    // "</ons-carousel>";
+
+
 </script>
 
 </body>
