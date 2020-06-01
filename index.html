@@ -19,6 +19,8 @@
 <body>
     <ons-navigator id="myNavigator" page="login.html"></ons-navigator>
 
+
+
     <!--  The Login Page -->
 
     <template id="login.html">
@@ -196,26 +198,38 @@
             <div class="movie_list">
                 My List
                 <ons-carousel auto-refresh swipeable overscrollable item-width="110px">
-                    <ons-carousel-item modifier="nodivider" id="Movie 1" onclick="openMovieDetails(this.id)">
-                        <!--  <img src="assets/img/onsenui-roadmap.jpg"> -->
-
-                        <a href="http://www.google.com" target="_blank">
-                            <img src="assets/img/onsenui-roadmap.jpg" />
-                        </a>
-
+                    <ons-carousel-item modifier="nodivider" id="Movie Name" onclick="openMovieDetails(this.id)">
+                    <img src="assets/img/onsenui-roadmap.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
                     </ons-carousel-item>
                     <ons-carousel-item modifier="nodivider" id="Movie 2" onclick="openMovieDetails(this.id)">
-                        <img src="assets/img/Monaca_Logo.jpg">
+                        <img src="assets/img/Monaca_Logo.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
                     </ons-carousel-item>
                     <ons-carousel-item modifier="nodivider" id="Movie 3" onclick="openMovieDetails(this.id)">
-                        <img src="assets/img/movie_cover_template.jpg">
+                        <img src="assets/img/movie_cover_template.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
                     </ons-carousel-item>
                     <ons-carousel-item modifier="nodivider" id="Movie 4" onclick="openMovieDetails(this.id)">
-                        <img src="assets/img/movie_cover_template.jpg">
+                        <img src="assets/img/movie_cover_template.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
                     </ons-carousel-item>
                     <ons-carousel-item modifier="nodivider" id="Movie 5" onclick="openMovieDetails(this.id)">
-                        <img src="assets/img/movie_cover_template.jpg">
+                        <img src="assets/img/movie_cover_template.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
                     </ons-carousel-item>
+
+                    <ons-carousel-item modifier="nodivider" id="Movie 1" onclick="openMovieDetails(this.id)">
+                            <img src="assets/img/onsenui-roadmap.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" />
+                    </ons-carousel-item>
+                    <ons-carousel-item modifier="nodivider" id="Movie 2" onclick="openMovieDetails(this.id)">
+                        <img src="assets/img/Monaca_Logo.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
+                    </ons-carousel-item>
+                    <ons-carousel-item modifier="nodivider" id="Movie 3" onclick="openMovieDetails(this.id)">
+                        <img src="assets/img/movie_cover_template.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
+                    </ons-carousel-item>
+                    <ons-carousel-item modifier="nodivider" id="Movie 4" onclick="openMovieDetails(this.id)">
+                        <img src="assets/img/movie_cover_template.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
+                    </ons-carousel-item>
+                    <ons-carousel-item modifier="nodivider" id="Movie 5" onclick="openMovieDetails(this.id)">
+                        <img src="assets/img/movie_cover_template.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
+                    </ons-carousel-item>
+
                 </ons-carousel>
             </div>
 
@@ -223,53 +237,97 @@
                 Top Picks For You
                 <ons-carousel auto-refresh swipeable overscrollable item-width="105px">
                     <ons-carousel-item modifier="nodivider" id="Top Movie 1" onclick="openMovieDetails(this.id)">
-                        <img src="assets/img/Monaca_Logo.jpg">
+                        <img src="assets/img/Monaca_Logo.jpg"   style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
                     </ons-carousel-item>
                     <ons-carousel-item modifier="nodivider" id="Top Movie 2" onclick="openMovieDetails(this.id)">
-                        <img src="assets/img/new4.jpg">
+                        <img src="assets/img/new4.jpg"  style="position:relative; height: 135px; width: 100px; object-fit: cover;">
                     </ons-carousel-item>
                     <ons-carousel-item modifier="nodivider" id="Top Movie 3" onclick="openMovieDetails(this.id)">
-                        <img src="assets/img/new3.jpg">
+                        <img src="assets/img/new3.jpg"  style="position:relative; height: 135px; width: 100px; object-fit: cover;">
                     </ons-carousel-item>
                     <ons-carousel-item modifier="nodivider" id="Top Movie 4" onclick="openMovieDetails(this.id)">
-                        <img src="assets/img/new2.jpg">
+                        <img src="assets/img/new2.jpg"  style="position:relative; height: 135px; width: 100px; object-fit: cover;">
                     </ons-carousel-item>
                     <ons-carousel-item modifier="nodivider" id="Top Movie 5" onclick="openMovieDetails(this.id)">
-                        <img src="assets/img/new.jpg">
+                        <img src="assets/img/new.jpg"  style="position:relative; height: 135px; width: 100px; object-fit: cover;">
                     </ons-carousel-item>
+                    <ons-carousel-item modifier="nodivider" id="Movie 1" onclick="openMovieDetails(this.id)">
+                        <img src="assets/img/onsenui-roadmap.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" />
+                </ons-carousel-item>
+                <ons-carousel-item modifier="nodivider" id="Movie 2" onclick="openMovieDetails(this.id)">
+                    <img src="assets/img/Monaca_Logo.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
+                </ons-carousel-item>
+                <ons-carousel-item modifier="nodivider" id="Movie 3" onclick="openMovieDetails(this.id)">
+                    <img src="assets/img/movie_cover_template.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
+                </ons-carousel-item>
+                <ons-carousel-item modifier="nodivider" id="Movie 4" onclick="openMovieDetails(this.id)">
+                    <img src="assets/img/movie_cover_template.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
+                </ons-carousel-item>
+                <ons-carousel-item modifier="nodivider" id="Movie 5" onclick="openMovieDetails(this.id)">
+                    <img src="assets/img/movie_cover_template.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
+                </ons-carousel-item>
                 </ons-carousel>
             </div>
 
-<div class="movie_list" >
-    Recently Added
-    <ons-carousel auto-refresh swipeable overscrollable item-width="110px">
-        
-        <ons-carousel-item modifier="nodivider" id="Recent Movie 1" class="movie_cover"
-            onclick="openMovieDetails(this.id)">
-            <img src="assets/img/movie_cover_template.jpg">
-        </ons-carousel-item>
+            <div class="movie_list">
+                Recently Added
+                <ons-carousel auto-refresh swipeable overscrollable item-width="110px">
 
-        <ons-carousel-item modifier="nodivider" id="Recent Movie 2" class="movie_cover"
-            onclick="openMovieDetails(this.id)">
-            <img src="assets/img/new2.jpg">
-        </ons-carousel-item>
-        <ons-carousel-item modifier="nodivider" id="Recent Movie 3" class="movie_cover"
-            onclick="openMovieDetails(this.id)">
-            <img src="assets/img/movie_cover_template.jpg">
-        </ons-carousel-item>
-        <ons-carousel-item modifier="nodivider" id="Recent Movie 4" class="movie_cover"
-            onclick="openMovieDetails(this.id)">
-            <a href="https://www.w3schools.com">
+                    <ons-carousel-item modifier="nodivider" id="Recent_Movie_1" class="movie_cover"
+                        onclick="openMovieDetails(this.id)">
+                        <img src="assets/img/movie_cover_template.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
+                    </ons-carousel-item>
 
-                <img src="assets/img/Monaca_Logo.jpg">
-            </a>
-        </ons-carousel-item>
-        <ons-carousel-item modifier="nodivider" id="Recent Movie 5" class="movie_cover"
-            onclick="openMovieDetails(this.id)">
-            <img src="assets/img/movie_cover_template.jpg">
-        </ons-carousel-item>
-    </ons-carousel>
-</div>
+                    <ons-carousel-item modifier="nodivider" id="Recent Movie 2" class="movie_cover"
+                        onclick="openMovieDetails(this.id)">
+                        <img src="assets/img/new2.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
+                    </ons-carousel-item>
+
+                    <ons-carousel-item modifier="nodivider" id="Recent Movie 3" class="movie_cover"
+                        onclick="openMovieDetails(this.id)">
+                        <img src="assets/img/movie_cover_template.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
+                    </ons-carousel-item>
+
+                    <ons-carousel-item modifier="nodivider" id="Recent Movie 4" class="movie_cover"
+                        onclick="openMovieDetails(this.id)">
+                        
+                        <img src="assets/img/Monaca_Logo.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;"  >
+                    </ons-carousel-item>
+
+                    <ons-carousel-item modifier="nodivider" id="Recent Movie 5" class="movie_cover"
+                        onclick="openMovieDetails(this.id)">
+                        <img src="assets/img/movie_cover_template.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
+                    </ons-carousel-item>
+                    <ons-carousel-item modifier="nodivider" id="Movie 1" onclick="openMovieDetails(this.id)">
+                        <img src="assets/img/onsenui-roadmap.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" />
+                </ons-carousel-item>
+                <ons-carousel-item modifier="nodivider" id="Movie 2" onclick="openMovieDetails(this.id)">
+                    <img src="assets/img/Monaca_Logo.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
+                </ons-carousel-item>
+                <ons-carousel-item modifier="nodivider" id="Movie 3" onclick="openMovieDetails(this.id)">
+                    <img src="assets/img/movie_cover_template.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
+                </ons-carousel-item>
+                <ons-carousel-item modifier="nodivider" id="Movie 4" onclick="openMovieDetails(this.id)">
+                    <img src="assets/img/movie_cover_template.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
+                </ons-carousel-item>
+                <ons-carousel-item modifier="nodivider" id="Movie 5" onclick="openMovieDetails(this.id)">
+                    <img src="assets/img/movie_cover_template.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
+                </ons-carousel-item>
+
+                </ons-carousel>
+            </div>
+
+            <!-- <div class="movie_list2">
+                Recently Added 2
+                <ons-carousel auto-refresh swipeable overscrollable item-width="110px">
+                    <ons-carousel-item modifier="nodivider" id="Recent Movie 1" class="movie_cover"
+                        onclick="openMovieDetails(this.id)">
+                        <img src="assets/img/movie_cover_template.jpg" style="position:relative; height: 135px; width: 100px; object-fit: cover;" >
+                    </ons-carousel-item>
+
+                </ons-carousel>
+
+            </div> -->
 
             <style type="text/css">
                 .carousel ons-carousel-item img {
@@ -296,7 +354,6 @@
                     font-size: 15px;
                     display: table-cell;
                     color: #999;
-                    +
                 }
 
                 .circle_current {
@@ -310,6 +367,16 @@
                 }
 
                 .movie_list img {
+                    width: 90%
+                }
+
+                .movie_list2 {
+                    margin: 10px;
+                    height: 130px;
+                    padding-top: 30px;
+                }
+
+                .movie_list2 img {
                     width: 90%
                 }
             </style>
@@ -342,64 +409,68 @@
                 <!-- <ons-icon icon="fa-play-circle"></ons-icon> -->
                 <!-- <img src="assets/img/onsenui-roadmap.jpg"> -->
 
-                <a href="https://drive.google.com/file/d/1OZPLc7gEflD5IAaJMUk5x2A5FGcS59yl/view?usp=sharing" target="_blank">
-                    <img src="assets/img/onsenui-roadmap.jpg">
+                <a href="https://drive.google.com/file/d/1OZPLc7gEflD5IAaJMUk5x2A5FGcS59yl/view?usp=sharing"
+                    target="_blank">
+                    <img src="assets/img/new2.jpg" style="position:relative; height: 100%; width: 100%; object-fit: cover;">
                 </a>
 
             </div>
 
-                <div class="movie_info">
-      <h2 id="movie_title"></h2>
-      <ons-row class="movie_general_info">
-        <ons-col class="stars">
-          <ons-icon style="color: red" icon="fa-star"></ons-icon>
-          <ons-icon style="color: red" icon="fa-star"></ons-icon>
-          <ons-icon style="color: red" icon="fa-star"></ons-icon>
-          <ons-icon style="color: red" icon="fa-star"></ons-icon>
-          <ons-icon style="color: gray" icon="fa-star"></ons-icon>
-        </ons-col>
-        <ons-col>2016</ons-col>
-        <ons-col>TV-14</ons-col>
-        <ons-col>2h 0m</ons-col>
-      </ons-row>
-      <div class="movie_synopsis">When the protagonist was a child, he dreamed of becoming a hero of a story that everyone will know. As he aged, he realized his dreams are just that - dreams and nothing more. But never did he expect that when he turned 21 years old, the unexpected would have happened and that the story he was longing for will start to unfold.</div>
-      <div class="movie_cast">
-        Cast: Actor 1, Actress 1, Actor 2, Actress 2 <br/>
-        Director: Popular Director
-      </div>
-      <ons-row class="movie_extra_buttons">
-        <ons-col>
-          <ons-button modifier="quiet">
-            <ons-icon icon="ion-plus-round"></ons-icon>
-            <div>My List</div>
-          </ons-button>
-        </ons-col>
-        <ons-col>
-          <ons-if platform="ios">
-            <ons-button modifier="quiet">
-              <ons-icon icon="ion-ios-upload-outline"></ons-icon>
-              <div>Share</div>
-            </ons-button>
-          </ons-if>
-        </ons-col>
-      </ons-row>
-    </div>
-    
-                <div class="movie_list">
-      Similar Movies
-      <ons-carousel auto-refresh swipeable overscrollable item-width="110px">
-        <ons-carousel-item modifier="nodivider" id="Similar Movie 1" onclick="openMovieDetails(this.id)">
-          <img src="assets/img/new3.jpg">
-        </ons-carousel-item>
-        <ons-carousel-item modifier="nodivider" id="Similar Movie 2" onclick="openMovieDetails(this.id)">
-          <img src="assets/img/new4.jpg">
-        </ons-carousel-item>
-        <ons-carousel-item modifier="nodivider" id="Similar Movie 3" onclick="openMovieDetails(this.id)">
-          <img src="assets/img/new2.jpg">
-        </ons-carousel-item>
-      </ons-carousel>
-    </div>
-    
+            <div class="movie_info">
+                <h2 id="movie_title"></h2>
+                <ons-row class="movie_general_info">
+                    <ons-col class="stars">
+                        <ons-icon style="color: red" icon="fa-star"></ons-icon>
+                        <ons-icon style="color: red" icon="fa-star"></ons-icon>
+                        <ons-icon style="color: red" icon="fa-star"></ons-icon>
+                        <ons-icon style="color: red" icon="fa-star"></ons-icon>
+                        <ons-icon style="color: gray" icon="fa-star"></ons-icon>
+                    </ons-col>
+                    <ons-col>2016</ons-col>
+                    <ons-col>TV-14</ons-col>
+                    <ons-col>2h 0m</ons-col>
+                </ons-row>
+                <div class="movie_synopsis">When the protagonist was a child, he dreamed of becoming a hero of a story
+                    that everyone will know. As he aged, he realized his dreams are just that - dreams and nothing more.
+                    But never did he expect that when he turned 21 years old, the unexpected would have happened and
+                    that the story he was longing for will start to unfold.</div>
+                <div class="movie_cast">
+                    Cast: Actor 1, Actress 1, Actor 2, Actress 2 <br />
+                    Director: Popular Director
+                </div>
+                <ons-row class="movie_extra_buttons">
+                    <ons-col>
+                        <ons-button modifier="quiet">
+                            <ons-icon icon="ion-plus-round"></ons-icon>
+                            <div>My List</div>
+                        </ons-button>
+                    </ons-col>
+                    <ons-col>
+                        <ons-if platform="ios">
+                            <ons-button modifier="quiet">
+                                <ons-icon icon="ion-ios-upload-outline"></ons-icon>
+                                <div>Share</div>
+                            </ons-button>
+                        </ons-if>
+                    </ons-col>
+                </ons-row>
+            </div>
+
+            <div class="movie_list">
+                Similar Movies
+                <ons-carousel auto-refresh swipeable overscrollable item-width="110px">
+                    <ons-carousel-item modifier="nodivider" id="Similar Movie 1" onclick="openMovieDetails(this.id)">
+                        <img src="assets/img/new3.jpg">
+                    </ons-carousel-item>
+                    <ons-carousel-item modifier="nodivider" id="Similar Movie 2" onclick="openMovieDetails(this.id)">
+                        <img src="assets/img/new4.jpg">
+                    </ons-carousel-item>
+                    <ons-carousel-item modifier="nodivider" id="Similar Movie 3" onclick="openMovieDetails(this.id)">
+                        <img src="assets/img/new2.jpg">
+                    </ons-carousel-item>
+                </ons-carousel>
+            </div>
+
             <style type="text/css">
                 .trailer {
                     height: 190px;
@@ -503,66 +574,7 @@
         }
     </style>
 
-    <script>
-    document.addEventListener('init', function(event) {
-        var page = event.target;
-        if (page.id === 'home') {
-            page.querySelector('#menu_button').onclick = function() {
-                document.querySelector('#menu').open();
-            };
-            //The postchange event listener is used for changing the dots when the carousel is changed
-            page.querySelector('#carousel').addEventListener("postchange", function() {
-                page.querySelector('#dot0').classList.remove("circle_current");
-                page.querySelector('#dot1').classList.remove("circle_current");
-                page.querySelector('#dot2').classList.remove("circle_current");
-                page.querySelector('#dot' + page.querySelector('#carousel').getActiveIndex()).classList
-                    .add("circle_current");
-            });
-        } else if (page.id === 'movie_details') {
-            page.querySelector('#movie_title').innerHTML = page.data.title;
-        }
-    });
-
-    function openMovieDetails(id) {
-        document.querySelector('#myNavigator').pushPage('movie_details.html', {
-            data: {
-                title: id
-            }
-        });
-    }
-
-    function openHome() {
-        document.querySelector('#myNavigator').pushPage('home_splitter.html');
-    }
-
-    function goBack() {
-        document.querySelector('#menu').close().then(function() {
-            document.querySelector('#myNavigator').popPage()
-        });
-    }
-
-    var s = '{"first_name" : "Sammy", "last_name" : "Shark", "location" : "Ocean"}';
-    var obj = JSON.parse(s);
-    console.log(obj);
-    // document.getElementById("Recently_addede003").innerHTML = 
-    // "<ons-carousel auto-refresh swipeable overscrollable item-width=\"110px\">" + 
-    //     "<ons-carousel-item modifier=\"nodivider\" id=\"Recent Movie 1\" class=\"movie_cover\"
-    //         "onclick=\"openMovieDetails(this.id)\"\>" + 
-    //         "<img src=\"assets/img/movie_cover_template.jpg\">" +
-    //     "</ons-carousel-item>" + 
-    // "</ons-carousel>";
-
-
-    if('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./serviceworker.js')
-                    .then((reg) => console.log('Success: ', reg.scope))
-                    .catch((err) => console.log('Failure: ', err));
-            })
-        }
-
-
-</script>
+    <script src="./scripts.js"></script>
 
 </body>
 
