@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
     <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+    <link rel="manifest" href="./manifest.json" />
     <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
 </head>
 
@@ -542,6 +543,15 @@
     //         "<img src=\"assets/img/movie_cover_template.jpg\">" +
     //     "</ons-carousel-item>" + 
     // "</ons-carousel>";
+
+
+    if('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./serviceworker.js')
+                    .then((reg) => console.log('Success: ', reg.scope))
+                    .catch((err) => console.log('Failure: ', err));
+            })
+        }
 
 
 </script>
