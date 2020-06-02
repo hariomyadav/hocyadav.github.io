@@ -2,7 +2,7 @@
     "name": ".TMovie App",
     "short_name": ".TMovie Netflix Amazon Hotstar Zee",
     "start_url": ".",
-    "display": "minimal-ui",
+    "display": "fullscreen",
     "background_color": "#fff",
     "description": ".TMovie App",
     "theme_color": "red",
