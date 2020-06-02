@@ -2,10 +2,10 @@
     "name": ".TMovie App",
     "short_name": ".TMovie Netflix Amazon Hotstar Zee",
     "start_url": ".",
-    "display": "browser",
-    "background_color": "#fff",
+    "display": "standalone",
+    "background_color": "black",
     "description": ".TMovie App",
-    "theme_color": "red",
+    "theme_color": "black",
     "icons": [
       {
             "src": "assets/img/tmovie.png",
