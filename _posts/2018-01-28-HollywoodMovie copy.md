@@ -26,8 +26,9 @@ Here's some basic text.
 
 And here's some *italics*
 
+<figure>
 {% include gallery caption="This is a sample gallery with **Markdown support**." %}
-
+</figure>
 
 Here's some **bold** text.
 
