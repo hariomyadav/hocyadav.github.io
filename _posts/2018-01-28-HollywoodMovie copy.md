@@ -30,6 +30,9 @@ And here's some *italics*
 {% include gallery caption="This is a sample gallery with **Markdown support**." %}
 </figure>
 
+{% include gallery id="gallery2" caption="This is a second gallery example with images hosted externally." %}
+
+
 Here's some **bold** text.
 
 What about a [link](https://github.com/dataoptimal)?
