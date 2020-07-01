@@ -1,7 +1,7 @@
 ---
 title: "Hollywood all movies"
 categories:
-  - English
+  - Hollywood
 tags:
   - [harry potter, ant man, bad boys]
 ---
