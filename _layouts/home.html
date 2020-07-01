@@ -2,6 +2,19 @@
 layout: archive
 ---
 
+{% capture fig_img %}
+[![Foo](https://images.unsplash.com/photo-1541943869728-4bd4f450c8f5?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjF9)](https://drive.google.com/file/d/1T1kuZd538MeT8Pfx002zr4FjN8PVIcTC/view?usp=sharing)
+{% endcapture %}
+
+{% capture fig_caption %}
+Image with a caption.
+{% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>{{ fig_caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+</figure>
+
 <!-- <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3> -->
 
 <!-- {% for post in paginator.posts %}
@@ -9,3 +22,5 @@ layout: archive
 {% endfor %}
 
 {% include paginator.html %} -->
+
+
