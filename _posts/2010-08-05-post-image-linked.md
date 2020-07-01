@@ -1,10 +1,9 @@
 ---
-title: "Post: Image (with Link)"
+title: "Hollywood all movies"
 categories:
-  - Post Formats
+  - English
 tags:
   - [harry potter, ant man, bad boys]
-  - Post Formats
 ---
 [![foo](/images/waterfront2.jpg)](https://drive.google.com/file/d/1T1kuZd538MeT8Pfx002zr4FjN8PVIcTC/view?usp=sharing)
 
