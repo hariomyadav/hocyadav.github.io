@@ -28,7 +28,7 @@ Here's some basic text.
 
 
 <figure>
-  <img src="{{ '/assets/images/paragraph-indent.png' | relative_url }}" alt="screen shot of paragraphs with default indent style set">
+  <img src="{{ '/images/waterfront00.jpg' | relative_url }}" alt="screen shot of paragraphs with default indent style set">
   <figcaption>Example of the default paragraph style (indented first line and bottom margin removed).</figcaption>
 </figure>
 
